@@ -1,0 +1,8 @@
+//why we Create default method in java interfaces?
+for example : 
+
+1.If we have a interface containing 10 abstract methods and if that interface is implements by multiple classes , but if we want to add new properties i.e methods 
+to that interface we need to override that method's inside its all implmentation classes so to avoid such problem we can create default method inside an interface 
+so that all class can get that method easily without changing anything in any class and we can override that default method accordingly based on the class requirment.
+
+2.We can add new method to interface without adding or changing any properties inside the implementaion class.
